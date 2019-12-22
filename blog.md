@@ -1,1 +1,0 @@
-# Lotte's blog!!
