@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 11
+before_script:
+  - npm install @11ty/eleventy -g
+script: eleventy
+deploy:
+  local-dir: _site
+  fqdn: lottehidding.education
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
