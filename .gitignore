@@ -61,3 +61,4 @@ typings/
 .next
 
 # Eleventy build
+_site/
