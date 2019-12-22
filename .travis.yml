@@ -9,7 +9,7 @@ deploy:
   fqdn: lottehidding.education
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $TRAVIS_DEPLOYMENT
   keep-history: true
   on:
     branch: master
