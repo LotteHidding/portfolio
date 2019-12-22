@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 
-## Onderwijskrabbels van Lotte
+## Onderwijskrabbels van Lotte !
 
 {% for post in collections.posts %}
 <a href="{{ post.url }}">
