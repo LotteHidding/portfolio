@@ -1,0 +1,129 @@
+:root {
+  --primary: #f7ff7d;
+  --secondary: #57ffc7;
+  --tertiary: #03a9f4;
+  --quartiary: #ff7df7;
+  --base: #333;
+}
+body {
+  margin: 0;
+  font-family: Garamond;
+  font-size: 1.5em;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: var(--base);
+  background-color: var(--quartiary);
+  padding-bottom: 3em;
+}
+h3 {
+  margin: 0.5em 0;
+  color: var(--tertiary);
+}
+
+a {
+  color: var(--base);
+  text-decoration: none;
+  transition: 0.25s;
+  padding: 0 25em;
+  margin: 0 -25em;
+}
+
+a.back {
+  display: block;
+  transition: 0.25s;
+}
+a.back:hover {
+  transform: translateX(-0.25rem);
+}
+img {
+  max-width: 100%;
+}
+time {
+  font-size: 0.75em;
+}
+body > * {
+  padding: 1rem;
+}
+body > header {
+  background-color: var(--secondary);
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+body > header h1 {
+  margin: 0;
+  font-size: 15vw;
+}
+body > header p {
+  font-style: italic;
+  font-size: 7.5vw;
+  margin: 0 0 0.5em;
+}
+body > header img {
+  align-self: center;
+  width: 70vw;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 28em;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+}
+article {
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 -1rem;
+  position: relative;
+}
+article header h3 {
+  margin-right: 3.5em;
+}
+article header time {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  background-color: var(--quartiary);
+  padding: 0.25em;
+  color: #fff;
+}
+article p {
+}
+
+body > footer {
+  background-color: var(--tertiary);
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+body > footer a {
+  color: white;
+  font-weight: bold;
+}
+
+@media (min-width: 40em) {
+  body > header h1 {
+    font-size: 10vw;
+  }
+  body > header p {
+    font-size: 4vw;
+  }
+  body > header img {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 35vw;
+  }
+  main {
+    font-size: 3.5vw;
+  }
+}
