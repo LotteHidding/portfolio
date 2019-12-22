@@ -6,7 +6,6 @@ before_script:
 script: eleventy
 deploy:
   local-dir: _site
-  fqdn: lottehidding.education
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
