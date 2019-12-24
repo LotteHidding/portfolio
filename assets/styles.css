@@ -14,14 +14,19 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: var(--base);
-  background-color: var(--quartiary);
+  background-color: var(--primary);
   padding-bottom: 3em;
 }
+h2 {
+  margin: 0 0 0.5em;
+}
 h3 {
-  margin: 0.5em 0;
+  margin: 0 0 0.5em;
   color: var(--tertiary);
 }
-
+p {
+  margin: 0 0 0.5em;
+}
 a {
   color: var(--base);
   text-decoration: none;
@@ -78,7 +83,7 @@ main {
 article {
   border-top: 1px solid #eee;
   background-color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 1em 1rem;
   margin: 0 -1rem;
   position: relative;
 }
@@ -121,7 +126,7 @@ body > footer a {
     position: absolute;
     right: 1rem;
     top: 1rem;
-    width: 35vw;
+    width: 25vw;
   }
   main {
     font-size: 3.5vw;
