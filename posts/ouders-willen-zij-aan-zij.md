@@ -1,6 +1,7 @@
 ---
 title: Ouders willen zij aan zij
 teaser: Actiebereidheid onder ouders groeit nu we de crisis zichtbaar maken
+date: 2019-12-11
 slug: ouders-willen-zij-aan-zij
 permalink: /krabbels/{{ slug }}/index.html
 ---

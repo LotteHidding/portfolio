@@ -1,6 +1,7 @@
 ---
 title: De community helpt
 teaser: In het kader van het lerarentekort wordt de community ingeschakeld om leraren te ontlasten
+date: 2019-12-24
 slug: de-community-helpt
 permalink: /krabbels/{{ slug }}/index.html
 ---
@@ -13,6 +14,6 @@ Met dit project wordt een concrete invulling gegeven aan het betrekken van de co
 
 * Hoe kan de veiligheid van kinderen gewaarborgd worden?
 * Hoe kan de kwaliteit van het onderwijs gewaarborgd worden?
-* Hoe kan de community op grote schaal wordne ingezet?
+* Hoe kan de community op grote schaal worden ingezet?
 
 In dit project zullen bovenstaande deelvragen gevalideerd gaan worden.
