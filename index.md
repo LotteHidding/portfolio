@@ -12,7 +12,7 @@ layout: base.njk
         <h3>{{ post.data.title }}</h3>
         <time>{{ post.data.date | date: "%d-%m-%Y" }}</time>
       </header>
-      <p>{{ post.data.teaser }}</p>
+      <p>{{ post.data.description }}</p>
   </article>
 </a>
 {% endfor %}

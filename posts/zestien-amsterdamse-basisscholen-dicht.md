@@ -1,9 +1,0 @@
----
-title: Zestien Amsterdamse basisscholen dicht
-teaser: Zestien Amsterdamse basisscholen week dicht vanwege lerarentekort /via NOS
-date: 2019-12-16
-slug: zestien-amsterdamse-basisscholen-dicht
-permalink: /krabbels/{{ slug }}/index.html
----
-
-Het is tien over twaalf. Hoe kunnen we met een groot tekort aan leraren toch zoveel mogelijk kwaliteit behouden in deze crisistijd?Daar gaan wij ons in de wk van 9 dec over buigen.

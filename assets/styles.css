@@ -1,9 +1,15 @@
 :root {
-  --primary: #f7ff7d;
-  --secondary: #57ffc7;
-  --tertiary: #03a9f4;
-  --quartiary: #ff7df7;
+  --primary: #fff;
+  --secondary: #08bdd0;
+  --tertiary: #607044;
+  --quartiary: #dd7f23;
   --base: #333;
+
+  /*
+  --secondary: #4bbebe; turquoise
+  --tertiary: #986a3c; brown
+  --quartiary: #005572; blue
+*/
 }
 body {
   margin: 0;
@@ -20,6 +26,7 @@ body {
 }
 h2 {
   margin: 0 0 0.5em;
+  color: var(--quartiary);
 }
 h3 {
   margin: 0 0 0.5em;
@@ -48,6 +55,12 @@ img {
 }
 time {
   font-size: 0.75em;
+}
+table {
+  font-size: 0.8em;
+}
+th {
+  text-align: left;
 }
 body > * {
   padding: 1rem;
@@ -95,9 +108,8 @@ article header time {
   position: absolute;
   top: 0;
   right: 1rem;
-  background-color: var(--quartiary);
   padding: 0.25em;
-  color: #fff;
+  color: #333;
 }
 article p {
 }
@@ -126,7 +138,7 @@ body > footer a {
   body > header img {
     position: absolute;
     right: 1rem;
-    top: 1rem;
+    top: 2rem;
     width: 25vw;
   }
   main {
